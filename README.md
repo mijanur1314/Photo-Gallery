@@ -4,7 +4,7 @@ A responsive, performance-optimized React application that fetches and displays 
 
 ## 🚀 Features
 
-- **Dynamic Photo Grid**: Fetches 30 high-quality images from the [Picsum API](https://picsum.photos/).
+- **Dynamic Photo Grid**: Fetches 30 high-quality images from the [Picsum Photos API](https://picsum.photos/v2/list?limit=30) .
 - **Fully Responsive Design**: Fluid grid layout tailored for all screen sizes (Desktop: 4 columns, Tablet: 2 columns, Mobile: 1 column).
 - **Real-Time Client-Side Search**: Instantly filter photos by author name as you type, without triggering unnecessary network requests or page reloads.
 - **Persistent Favourites**: Mark photos as favourites using a heart icon. State is managed robustly with `useReducer` and synchronized with `localStorage` to persist across browser reloads.
