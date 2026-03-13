@@ -62,16 +62,3 @@ src/
 ├── main.jsx              # React DOM mounting
 └── index.css             # Tailwind base styles
 ```
-
-## 📝 Assignment Requirements Met
-
-✅ React + Vite project setup with Tailwind CSS (No other UI libraries).
-✅ Fetches 30 photos with loading/error states.
-✅ Responsive grid layout (1, 2, and 4 columns).
-✅ Real-time search filter by author name without API calls.
-✅ Favourites managed with `useReducer` and persisted to `localStorage`.
-✅ Externalized logic in `useFetchPhotos` custom hook.
-✅ Performance optimization using `useCallback` and `useMemo`.
-
----
-*Developed for the Celebrare Frontend Intern Pre-Screening Assignment.*
